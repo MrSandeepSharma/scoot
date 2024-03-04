@@ -5,8 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Scoot is a multi page website using HTML, CSS and JS">
     <title>Scoot : Careers</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
-    <h1>Careers Page</h1>
+    <header class="header container">
+        <a href="#main" class="skip-main">Skip to main content</a>
+        <a href="/" class="header__logo">
+            <img src="../../assets/scoot.svg" alt="scoot" width="76" height="20">
+        </a>
+        <nav class="header__nav" aria-label="primary navigation">
+            <button id="nav-btn" class="nav__btn" aria-expanded="false" aria-controls="nav-list"><span class="sr-only">menu</span></button>
+            <ul id="nav-list" class="nav__list">
+                <li class="list__item"><a href="/pages/About">About</a></li>
+                <li class="list__item"><a href="/pages/Location">Location</a></li>
+                <li class="list__item"><a class="active" href="/pages/Careers">Careers</a></li>
+            </ul>
+            <button class="primary-btn">Get Scootin</button>
+        </nav>
+    </header>
+    <main id="main" class="aboutpage">
+        <h1>Career Page</h1>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <h2 class="footer__title">Sign up and Scoot off today</h2>
+            <div class="flex-container">
+                <img src="../../assets/appstore-icon.svg" alt="App Store" width="114" height="40">
+                <img src="../../assets/playstore-icon.svg" alt="Play Store" width="130" height="40">
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <a href="/" class="footer__logo">
+                <img src="../../assets/footer-logo.svg" alt="scoot" width="107" height="28">
+            </a>
+            <nav class="footer__nav" aria-label="footer navigation">
+                <ul class="nav__list">
+                    <li class="list__item"><a href="/pages/About">About</a></li>
+                    <li class="list__item"><a href="/pages/Location">Location</a></li>
+                    <li class="list__item"><a href="/pages/Careers">Careers</a></li>
+                </ul>
+            </nav>
+            <ul class="socialLinks flex-container" aria-label="social links">
+                <li>
+                    <a href="https://github.com/MrSandeepSharma/scoot">
+                        <img src="../../assets/fb-icon.svg" alt="Facebook" width="24" height="24">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/MrSandeepSharma/scoot">
+                        <img src="../../assets/twitter-icon.svg" alt="Twitter" width="24" height="24">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/MrSandeepSharma/scoot">
+                        <img src="../../assets/instagram-icon.svg" alt="Instagram" width="24" height="24">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- script files -->
+    <script src="../../script.js"></script>
 </body>
 </html>
