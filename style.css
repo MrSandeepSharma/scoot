@@ -164,7 +164,7 @@ li {
 }
 
 .primary-btn:hover {
-    background-color: var(--clr-white);
+    background-color: transparent;
     color: var(--clr-primary-400);
     outline: 2px solid var(--clr-primary-400);
 }
