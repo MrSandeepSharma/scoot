@@ -8,7 +8,7 @@
 .homepage__hero {
     --padding: 2rem 1rem;
 
-    background: var(--clr-Dark-Navy-300) url(./assets/home-hero-bg.png) no-repeat;
+    background: var(--clr-Dark-Navy-300) url(./assets/home-hero-bg.webp) no-repeat;
     background-size: cover;
     color: var(--clr-white);
     height: 650px;
@@ -177,7 +177,7 @@
 
     .homepage__hero {
         --padding: 1rem 1.5rem;
-        background: var(--clr-Dark-Navy-300) url(./assets/home-hero-tablet.png) no-repeat;
+        background: var(--clr-Dark-Navy-300) url(./assets/home-hero-tablet.webp) no-repeat;
         background-size: cover;
     }
 
@@ -270,7 +270,7 @@
     .homepage__hero {
         --padding: 2rem 3rem;
 
-        background: var(--clr-Dark-Navy-300) url(./assets/home-hero-desktop.png) no-repeat;
+        background: var(--clr-Dark-Navy-300) url(./assets/home-hero-desktop.webp) no-repeat;
         background-size: cover;
         align-items: flex-start;
         overflow: hidden;

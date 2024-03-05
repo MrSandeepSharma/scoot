@@ -286,7 +286,7 @@ body {
 .footer__top {
     --padding: 3rem 1rem;
 
-    background: var(--clr-Dark-Navy) url(./assets/footer-bg.png) no-repeat;
+    background: var(--clr-Dark-Navy) url(./assets/footer-bg.webp) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -369,7 +369,7 @@ body {
     .footer__top {
         --padding: 3rem 1.5rem;
 
-        background: var(--clr-Dark-Navy) url(./assets/footer-bg-tablet.png) no-repeat;
+        background: var(--clr-Dark-Navy) url(./assets/footer-bg-tablet.webp) no-repeat;
         background-size: cover;
     }
 
@@ -403,7 +403,7 @@ body {
     .footer__top {
         --padding: 3rem;
 
-        background: var(--clr-Dark-Navy) url(./assets/footer-bg-desktop.png) no-repeat;
+        background: var(--clr-Dark-Navy) url(./assets/footer-bg-desktop.webp) no-repeat;
         background-size: cover;
         flex-direction: row;
         justify-content: space-between;
