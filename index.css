@@ -12,7 +12,6 @@
     background-size: cover;
     color: var(--clr-white);
     height: 650px;
-    margin-inline: -1rem;
     padding: var(--padding);
     display: flex;
     flex-direction: column;
@@ -69,7 +68,6 @@
     gap: var(--gap);
     padding: var(--padding);
     overflow: hidden;
-    margin: -1rem;
 }
 
 .feature {
@@ -103,7 +101,6 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin: -1rem;
     padding: var(--padding);
     overflow: hidden;
 }
@@ -179,6 +176,7 @@
     }
 
     .homepage__hero {
+        --padding: 1rem 1.5rem;
         background: var(--clr-Dark-Navy-300) url(./assets/home-hero-tablet.png) no-repeat;
         background-size: cover;
     }
@@ -208,7 +206,7 @@
 
     /* Feature section */
     .homepage__features {
-        --padding: 2rem 0;
+        --padding: 2rem 1.5rem;
         --gap: 1rem;
 
         position: relative;
@@ -249,6 +247,10 @@
     }
 
     /* Homepage Story */
+    .homepage__story {
+        --padding: 1rem 1.5rem;
+    }
+
     .story__title {
         max-width: 500px;
     }
@@ -266,6 +268,8 @@
 
     /* Hero Section */
     .homepage__hero {
+        --padding: 2rem 3rem;
+
         background: var(--clr-Dark-Navy-300) url(./assets/home-hero-desktop.png) no-repeat;
         background-size: cover;
         align-items: flex-start;
@@ -287,7 +291,7 @@
     }
 
     .homepage__hero .hero__inner {
-        margin-left: 13rem;
+        margin-left: 11rem;
         align-items: flex-start;
     }
 
@@ -301,7 +305,7 @@
     .hero__desc::after {
         content: "";
         position: absolute;
-        width: 447px;
+        width: 452px;
         height: 151px;
         bottom: -5.3rem;
         right: -28.5rem;
@@ -310,7 +314,7 @@
 
      /* Feature section */
      .homepage__features {
-        --padding: 3rem 0;
+        --padding: 3rem;
         --gap: 3rem;
 
         flex-direction: row;
@@ -339,6 +343,8 @@
 
     /* Homepage Story */
     .homepage__story {
+        --padding: 1rem 3rem;
+
         gap: 5rem;
     }
 
@@ -378,7 +384,7 @@
 
     .story__title {
         text-align: left;
-        max-width: 550px;
+        max-width: 600px;
     }
 
     .story__desc {
@@ -390,12 +396,6 @@
 
 @media (min-width: 1100px) {
     /* Homepage Story */
-
-    .story__container {
-        gap: 22rem;
-        justify-content: center;
-    }
-
 
     .story__container:first-child:after,
     .story__container:nth-child(2)::after, 

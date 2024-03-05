@@ -334,7 +334,7 @@ body {
 }
 
 
-@media (min-width: 550px) {
+@media (min-width: 650px) {
     /* Header */
     .header {
         --padding: 1rem 1.5rem;
@@ -395,7 +395,7 @@ body {
 
 }
 
-@media (min-width: 850px) {
+@media (min-width: 950px) {
     .header {
         --padding: 1rem 3rem;
     }
