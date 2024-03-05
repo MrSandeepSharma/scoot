@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <!-- CSS File -->
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header class="header container">
@@ -29,8 +30,35 @@
             <button class="primary-btn">Get Scootin</button>
         </nav>
     </header>
-    <main id="main" class="aboutpage">
-        <h1>Location Page</h1>
+    <main id="main" class="locationpage container">
+        <section class="hero">
+            <h1>Location Page</h1>
+        </section>
+        <section class="locations">
+            <picture>
+                <source media="(min-width: 950px)" srcset="../../assets/map-desktop.png" width="1110" height="542">
+                <source media="(min-width: 650px)" srcset="../../assets/map-tablet.png" width="689" height="337">
+                <img src="../../assets/map-mobile.webp" alt="map" width="311" height="152">
+            </picture>
+            <div class="location__container">
+                <h2 class="location__name">New York</h2>
+                <h2 class="location__name">London</h2>
+                <h2 class="location__name">Jakarta</h2>
+                <h2 class="location__name">Yokohama</h2>
+            </div>
+        </section>
+        <section class="location__availibility">
+            <h2 class="availibility__status">Your City Not Listed?</h2>
+            <div class="availibility__detail">
+                <p class="availibility__desc">If you’d like to see Scoot 
+                    in your hometown, be sure to let us know. We track 
+                    requests and plan launches based on demand. Feel free 
+                    to message us by clicking the link or messaging us on 
+                    social.
+                </p>
+                <button class="primary-btn">Message Us</button>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__top">

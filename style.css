@@ -1,6 +1,7 @@
 /* Root variables */
 :root {
     --clr-primary-400: hsl(40, 97%, 58%);
+    --clr-primary-300: hsl(39, 100%, 94%);
     --clr-Dark-Navy-300: hsl(216, 17%, 35%);
     --clr-Dark-Navy: hsl(215, 15%, 23%);
     --clr-Dark-Navy-500: hsl(240, 3%, 6%);
