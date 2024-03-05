@@ -274,6 +274,10 @@ body {
     background-size: contain;
 }
 
+.nav__btn[aria-expanded=true]:focus {
+    outline-color: var(--clr-white);
+}
+
 .nav__btn[aria-expanded=true] ~ .nav__list {
     visibility: unset;
     opacity: unset;
@@ -365,6 +369,10 @@ body {
     .nav__list .list__item a {
         color: var(--clr-Dark-Navy);
         font-size: var(--fs-400);
+    }
+
+    .nav__list .list__item a:focus {
+        outline-color: var(--clr-Dark-Navy);
     }
 
     /* Footer */
